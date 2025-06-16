@@ -1,4 +1,4 @@
-﻿namespace Ds04.StacksQueues;
+﻿namespace Ds04.StacksQueues.Exercises;
 
 public class StackAsQueue<T>
 {

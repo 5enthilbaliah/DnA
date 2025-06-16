@@ -1,4 +1,4 @@
-﻿namespace Ds02.HashTables;
+﻿namespace Ds02.HashTables.Exercises;
 
 public class FirstRecurringCharacter(int[] arr)
 {

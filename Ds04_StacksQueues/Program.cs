@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using Ds04.StacksQueues;
+using Ds04.StacksQueues.Exercises;
 
 var queue = new StackAsQueue<int>();
 

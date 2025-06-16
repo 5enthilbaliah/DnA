@@ -1,13 +1,12 @@
 ﻿// ReSharper disable InconsistentNaming
-namespace Ds05.Trees;
+namespace Ds05.Trees.Exercises;
 
 public class IslandCoordinate
 {
     public int Column { get; set; }
     public int Row { get; set; }
     
-
-    public string Key => $"{Row}-{Column}";
+    private string Key => $"{Row}-{Column}";
 
     // Directions
     public IslandCoordinate? N { get; set; }
@@ -123,13 +122,11 @@ public class FindLargestIsland(int[,] map)
         var maxVisits = 0;
         foreach (var key in coordinateDictionary.Keys)
         {
-            if (!visited.Contains(key))
-            {
-                var visitCount = coordinateDictionary[key].Visit(visited);
+            if (visited.Contains(key)) continue;
+            var visitCount = coordinateDictionary[key].Visit(visited);
                 
-                if (visitCount > maxVisits)
-                    maxVisits = visitCount;
-            }
+            if (visitCount > maxVisits)
+                maxVisits = visitCount;
         }
 
         return maxVisits;

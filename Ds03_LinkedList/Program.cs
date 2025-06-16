@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-
-using Ds03_LinkedList;
+using Ds03_LinkedList.Exercises;
 
 var linkedList = new LinkedList<int>();
 linkedList.AddFirst(1);

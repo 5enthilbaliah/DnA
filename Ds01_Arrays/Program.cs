@@ -75,3 +75,9 @@ var rotateArray = new RotateArray([1, 2, 3, 4, 5, 6, 7], 9);
 Console.WriteLine("Rotate array");
 Console.WriteLine("------------------------------------------");
 Console.WriteLine(JsonSerializer.Serialize(rotateArray.Execute()));
+
+// Max candies to eat
+var distributeCandies = new DistributeCandies([6, 6, 6, 6]);
+Console.WriteLine("Distribute candies");
+Console.WriteLine("------------------------------------------");
+Console.WriteLine(distributeCandies.Execute());

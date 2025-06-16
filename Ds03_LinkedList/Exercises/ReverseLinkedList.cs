@@ -1,4 +1,4 @@
-﻿namespace Ds03_LinkedList;
+﻿namespace Ds03_LinkedList.Exercises;
 
 public class ReverseLinkedList(LinkedListNode<int> head)
 {

@@ -4,7 +4,7 @@
 // AVL tree
 // Red-Black tree
 
-using Ds05.Trees;
+using Ds05.Trees.Exercises;
 
 var map = new[,]
 {

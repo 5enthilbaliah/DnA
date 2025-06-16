@@ -2,7 +2,7 @@
 
 // Merge sorted arrays
 
-using Ds02.HashTables;
+using Ds02.HashTables.Exercises;
 
 var recurringCharacter = new FirstRecurringCharacter([2, 5, 1, 2, 3, 5, 1, 2, 4]);
 Console.WriteLine("First recurring character");
